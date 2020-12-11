@@ -66,7 +66,7 @@ const products = [
   },
   {
     _id: '6',
-    name: 'Amazon Echo Dot 3rd Generation',
+    name: 'Amazon Echo Spy 3rd Generation',
     image: '/images/alexa.jpg',
     description:
       'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
@@ -79,4 +79,4 @@ const products = [
   },
 ]
 
-export default products
+module.exports = products

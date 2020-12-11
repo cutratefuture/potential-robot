@@ -1,0 +1,16 @@
+{
+  "name": "potential-robot",
+  "version": "1.0.0",
+  "description": "mern shop",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node backend/server"
+  },
+  "repository": "https://github.com/cutratefuture/potential-robot.git",
+  "author": "cutratefuture <christian@cutratefuture.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
