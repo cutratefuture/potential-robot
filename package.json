@@ -4,12 +4,19 @@
   "description": "mern shop",
   "main": "server.js",
   "scripts": {
-    "dev": "node backend/server"
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "cd frontend/ && yarn start",
+    "dev": "concurrently \"yarn server\" \"yarn client\""
   },
   "repository": "https://github.com/cutratefuture/potential-robot.git",
   "author": "cutratefuture <christian@cutratefuture.com>",
   "license": "MIT",
   "private": false,
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
